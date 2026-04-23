@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio and website." />
+  <title>PP Site</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#" class="nav__logo">PP Site</a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__content">
+        <h1 class="hero__title">Welcome</h1>
+        <p class="hero__subtitle">This site is under construction. Check back soon!</p>
+        <a href="#about" class="btn btn--primary">Learn More</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title">About</h2>
+        <p class="section__text">
+          This is the construction grounds for a new website. Content and features
+          are actively being developed and will be published here as they are ready.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3 class="card__title">Coming Soon</h3>
+            <p class="card__text">Projects will be listed here once the site is live.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <p class="section__text">Want to get in touch? Reach out via the links below.</p>
+        <ul class="contact-list">
+          <li>
+            <a href="https://github.com/FerretFatale" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> PP Site. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
